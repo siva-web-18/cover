@@ -1,0 +1,50 @@
+body
+{
+    background-image: url(2.png);
+}
+.items
+{
+         
+        
+    
+    width: 90%;
+    background-color: silver;
+    border-left: solid 6px black;
+    padding: 25px;
+    margin: 60px auto;
+    position:relative;
+    left:-49;
+            
+        
+}
+.author
+{
+    image-rendering: url(1.jpg);
+    width: 90%;
+    background-color: snow;
+    border-left: solid 6px black;
+    padding: 25px;
+    margin: 60px auto;
+    position:relative;
+    left:-49
+    
+}
+.profile-img
+ {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 15px;
+ }
+.footer
+{
+     width: 90%;
+    background-color: yellow;
+    border-left: solid 6px black;
+    padding: 25px;
+    margin: 60px auto;
+    position:relative;
+    left: -30px;
+    bottom:0%;
+}
