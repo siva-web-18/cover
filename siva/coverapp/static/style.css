@@ -1,38 +1,59 @@
 body
 {
-    background-image: url(2.png);
+    width: 40%;
+    height: 85% ;
+}
+.best
+{           
+    border:  solid 6px black;
+    
+    height: 95% ;
+    padding: 25px;
+    background-image: url(2.png) ;
+    background-size: cover;
+    margin: 60px auto;
+    position:relative;
+    left:400px;
+    
+   
 }
 .container
 {
   text-align: left 80px;
+  text-align: top  10% ;
 }
 .items
 {
          
         
     
-    width: 80%;
+    width: 70%;
     background-color: silver;
     border-left: solid 6px black;
     padding: 25px;
     margin: 60px auto;
     position:relative;
-    left:-69;
+    left:-59;
+    top:-40;
             
         
 }
 .author
 {   
-    image-rendering: url(1.jpg);
-    width: 90%;
-    background-color: snow;
-    height: 25%;
     
-    border-left: solid 6px black;
+    
+    width: 80%;
+    height:20%;
+    background-color: silver;
+    border-radius: 5%;
     padding: 25px;
-    margin: 60px auto;
+    margin: 60px ;
+    display: flex;
+    gap:12px;
     position:relative;
-    left:9
+    left:-50;
+    top:-80;
+    
     
 
     
@@ -41,25 +62,18 @@ body
 
 .profile-img
  {
-    width: 85px;
-    height: 85px;
-    
-    object-fit: flex;
-    border-radius: 5px;
-    margin-right: 15px;
-    position: relative;
-    bottom:-20;
- }
- 
+    width: 60px;
+    height: 60px;
+   
+}
 .footer
 {
-    width: 90%;
+    width: 80%;
+    height: 2%;
     background-color: yellow;
-    height: 20px;
-    
     padding: 25px;
     margin: 60px auto;
     position:relative;
-    left: -30px;
-    bottom:0px;
+    left: -10px;
+    bottom: 86px;
 }

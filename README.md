@@ -40,35 +40,40 @@ cover.html
     </head>
     <body>
        
-        <div class="container">
-            <h1>ABOUT THE BOOK</h1>
-            <hr></hr>
-            <P>
-               “The C Programming Language” by Brian W. Kernighan and Dennis Ritchie is one of the most influential technology books in computer science. It introduces the C language, which is the foundation for many modern technologies, operating systems, and programming languages (like C++, Java, Python interpreters, and more).
-            </P>
-        </div>
-        <div class="items">
-            <p>
+        <div class="best">
+              <div class="container">
+             <h1>ABOUT THE BOOK</h1>
+             <hr></hr>
+             <P>
+               “The C Programming Language” by Brian W. Kernighan and Dennis Ritchie is one of the most influential technology books in computer science. 
+               It introduces the C language, which is the foundation for many modern technologies, operating systems, and programming languages (like C++, Java, Python interpreters, and more).
+               
+             </P>
+         </div>
+         <div class="items">
+             <p>
              “The C Programming Language is a timeless guide that shaped the way modern programming is taught.”
-            </p>
-        </div>
-        <div class="author">
-            <img src="1.jpg" alt="Author" class="profile-img">
+             </p>
+         </div>
+         <div class="author">
+             <img src="1.jpg" alt="Author" class="profile-img">
             
-            <div>
-                <h2>R SIVA</h2>
-                <p>
-                Siva is a dedicated student pursuing Cybersecurity at Saveetha College. He is interested in modern security technologies and enjoys learning how to protect systems, networks, and data from digital threats. With a strong passion for technology and problem-solving, Siva aims to build a successful career in the cybersecurity field.
-                </p>
-            </div>
-        </div>
+             <div>
+                 <h2>R SIVA</h2>
+                 <p>
+                 Siva is a dedicated student pursuing Cybersecurity at Saveetha College. He is interested in modern security technologies and enjoys learning how to protect systems, networks, and data from digital threats.
+                 
+                 </p>
+             </div>
+         </div>
 
-        <div class="footer">
-            <span class="publish"> World viewer, Publishers</span>
-            <span class="price">Price: ₹499</span>
-            <br>
-            <span class="printed">PRINTED IN INDIA</span>
-        </div>
+         <div class="footer">
+             <span class="publish"> World viewer, Publishers</span>
+             <span class="price">Price: ₹499</span>
+             <br>
+              <span class="printed">PRINTED IN INDIA</span>
+         </div>
+         </div>
     </body>
 </html>
 ```
@@ -76,58 +81,87 @@ cover.html
 style.css
 body
 {
-    background-image: url(2.png);
+    width: 40%;
+    height: 85% ;
+}
+.best
+{           
+    border:  solid 6px black;
+    
+    height: 95% ;
+    padding: 25px;
+    background-image: url(2.png) ;
+    background-size: cover;
+    margin: 60px auto;
+    position:relative;
+    left:400px;
+    
+   
+}
+.container
+{
+  text-align: left 80px;
+  text-align: top  10% ;
 }
 .items
 {
          
         
     
-    width: 90%;
+    width: 70%;
     background-color: silver;
     border-left: solid 6px black;
     padding: 25px;
     margin: 60px auto;
     position:relative;
-    left:-49;
+    left:-59;
+    top:-40;
             
         
 }
 .author
-{
-    image-rendering: url(1.jpg);
-    width: 90%;
-    background-color: snow;
-    border-left: solid 6px black;
+{   
+    
+    
+    width: 80%;
+    height:20%;
+    background-color: silver;
+    border-radius: 5%;
     padding: 25px;
-    margin: 60px auto;
+    margin: 60px ;
+    display: flex;
+    gap:12px;
     position:relative;
-    left:-49
+    left:-50;
+    top:-80;
+    
+    
+
     
 }
+
+
 .profile-img
  {
-    width: 85px;
-    height: 85px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-right: 15px;
- }
+    width: 60px;
+    height: 60px;
+   
+}
 .footer
 {
-     width: 90%;
+    width: 80%;
+    height: 2%;
     background-color: yellow;
-    border-left: solid 6px black;
     padding: 25px;
     margin: 60px auto;
     position:relative;
-    left: -30px;
-    bottom:0%;
+    left: -10px;
+    bottom: 86px;
 }
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-12-13 093641.png>)
 
+![alt text](<Screenshot 2025-12-13 155452.png>)
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
